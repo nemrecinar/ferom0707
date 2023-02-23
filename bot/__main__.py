@@ -64,9 +64,9 @@ async def start(client, message):
         start_string = 'Bot Started.\n' \
                     'Now I will send your files or links here.\n'
     else:
-   start_string = '🌹 Welcome To One Of A Modified Anasty Mirror Bot\n' \
+        start_string = '🌹 Welcome To One Of A Modified Anasty Mirror Bot\n' \
                     'This bot can Mirror all your links To Google Drive!\n' \
-                    '👨🏽‍💻 Powered By: @Nemre26'      ''
+                    '👨🏽‍💻 Powered By: '
     await sendMessage(message, start_string)
 
 async def restart(client, message):
